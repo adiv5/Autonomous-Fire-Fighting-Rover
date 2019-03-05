@@ -130,7 +130,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             ProgressStepCycle(speed);
             UpdateCameraPosition(speed);
-            Debug.Log("Mouselook is"+ GetComponent<MouseLook>());
+           // Debug.Log("Mouselook is"+ GetComponent<MouseLook>());
             GetComponent<MouseLook>().UpdateCursorLock();
         }
 
